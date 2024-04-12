@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Movie Ticket Booking',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        brightness: Brightness.dark, // Set the brightness to dark
+        primarySwatch: Colors.blue, // Set the primary color to blue
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/',
@@ -34,7 +35,7 @@ class MoviePosterPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.network(
-              'https://example.com/movie_poster.jpg', // Replace with actual image URL
+              'https://drive.usercontent.google.com/u/0/uc?id=18P5oCeyhfAUYNYumcMpu-lgzTKUuc3Cc&export=download', // Replace with actual image URL
               width: 200,
               height: 300,
               fit: BoxFit.cover,
