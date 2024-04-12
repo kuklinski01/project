@@ -34,8 +34,7 @@ class MoviePosterPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.network(
-              'https://drive.usercontent.google.com/u/0/uc?id=18P5oCeyhfAUYNYumcMpu-lgzTKUuc3Cc&export=download', // Replace with actual image URL
+            Image.network( 'https://dl.dropboxusercontent.com/scl/fi/o3fplq18o9ebclq4q6hzu/poster.jpeg?rlkey=xckka23q55ukwbgudxfns744w&dl=0', // Replace with actual image URL
               width: 200,
               height: 300,
               fit: BoxFit.cover,
