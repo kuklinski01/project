@@ -55195,7 +55195,7 @@ $1(a){return new A.ll(null)},
 $S:351}
 A.m4.prototype={
 N(a){var s=null
-return A.a6_(A.a3k(A.Bh("Movie Poster",s)),A.we(A.a3C(A.a([new A.pu(A.af5(s,s,new A.m7("https://drive.usercontent.google.com/u/0/uc?id=18P5oCeyhfAUYNYumcMpu-lgzTKUuc3Cc&export=download",1,s)),200,300,B.uo,s),A.AX(s,20,s),A.a4m(A.Bh("Book Tickets",s),new A.Po(a))],t.nA),B.nI),s,s))}}
+return A.a6_(A.a3k(A.Bh("Movie Poster",s)),A.we(A.a3C(A.a([new A.pu(A.af5(s,s,new A.m7("https://dl.dropboxusercontent.com/scl/fi/o3fplq18o9ebclq4q6hzu/poster.jpeg?rlkey=xckka23q55ukwbgudxfns744w&dl=0",1,s)),200,300,B.uo,s),A.AX(s,20,s),A.a4m(A.Bh("Book Tickets",s),new A.Po(a))],t.nA),B.nI),s,s))}}
 A.Po.prototype={
 $0(){A.PF(this.a).Fx("/booking",null,t.X)},
 $S:0}
